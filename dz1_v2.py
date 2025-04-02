@@ -38,3 +38,10 @@ print(f'''Вот и все, {name}!
 Ты ответил на {correct_count} из {total_questions} верно.
 Ты заработал {score} баллов.
 Это {accuracy:.2f}% правильных ответов.''')  # Вывод процентов
+
+logging = logger.info
+print("Привет! Предлагаю проверить свои знания английского! Напиши, как тебя зовут.")
+name = input()
+score = 0
+correct_count = 0
+total_questions = 0
